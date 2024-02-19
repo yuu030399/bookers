@@ -1,0 +1,10 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.row {
+  display: flex; /* または display: grid; */
+}
+
+.column {
+  flex-basis: 50%; /* または grid-template-columns: 1fr 1fr; */
+}
